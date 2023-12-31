@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: PINK;
+}
+h1{
+    font-family: Arial;
+    color: BLACK;
+    font-size: 5em;
+    text-shadow: 0 2px 0 rgb(0, 0, 0, 5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 30%;
+    transform: translate(-50%, -50%);
+}
+span:before{
+    content: 'SAYANG';
+    animation: animation infinite 20s;
+}
+
+@keyframes animation{
+    0%{
+        content: 'SAYANG';
+    }
+    10%{
+        content: 'CINTA';
+    }
+    20%{
+        content: 'SUKA';
+    }
+    30%{
+        content: 'KANGEN';
+    }
+    40%{
+        content: 'MIKIRIN';
+    }
+    50%{
+        content: 'TAKUT KEHILANGAN';
+    }
+    60%{
+        content: 'SALTING LIAT';
+    }
+    70%{
+        content: 'SUSAH TANPA';
+    }
+    80%{
+        content: 'BAKAL TEMENIN';
+    }
+    90%{
+        content: 'PERCAYA';
+    }
+    100%{
+        content: 'PEDULI SAMA';
+    }
+}

@@ -18,12 +18,13 @@ span:before{
     content: 'SAYANG';
     animation: animation infinite 20s;
 }
-
-  @media screen and(max-width:600px) {
-    body{
-        font-size: large;
+/* handphone */
+@media screen and (max-width: 599px) {
+    .tengah {
+      width: 350px;
+      height: 400px;
     }
-  }
+}
 
 @keyframes animation{
     0%{

@@ -17,13 +17,7 @@ span:before{
     content: 'SAYANG';
     animation: animation infinite 20s;
 }
-/* handphone */
-@media screen and (max-width: 599px) {
-    .h1 {
-      max-width: 100%;
-      height: auto;
-    }
-}
+
 
 @keyframes animation{
     0%{

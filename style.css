@@ -2,6 +2,7 @@ body{
     background: PINK;
     justify-content: center;
     display: flex;
+    text-align: center;
 }
 h1{
     font-family: Arial;

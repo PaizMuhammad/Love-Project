@@ -18,6 +18,15 @@ span:before{
     content: 'SAYANG';
     animation: animation infinite 20s;
 }
+section {
+    padding: 2em;
+  }
+  
+  .project {
+    margin-bottom: 2em;
+    max-width: 100%;
+    height: auto;
+  }
 
 @keyframes animation{
     0%{

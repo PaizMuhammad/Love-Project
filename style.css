@@ -1,14 +1,13 @@
 body{
-    display: flex;
-    height: 100vh;    
     background: PINK;
-    text-align: center;
     justify-content: center;
+    display: flex;
 }
 h1{
     font-family: Arial;
     color: BLACK;
     font-size: 5em;
+    height: 100vh;    
     text-shadow: 0 2px 0 rgb(0, 0, 0, 5);
     position: absolute;
     text-align: center;
@@ -21,34 +20,34 @@ span:before{
 
 @keyframes animation{
     0%{
-        content: 'SAYANG';
+        content: 'SAYANG SAMA';
     }
     10%{
-        content: 'CINTA';
+        content: 'CINTA SAMA';
     }
     20%{
-        content: 'SUKA';
+        content: 'SUKA SAMA';
     }
     30%{
-        content: 'KANGEN';
+        content: 'KANGEN SAMA';
     }
     40%{
-        content: 'MIKIRIN';
+        content: 'BAPER SAMA';
     }
     50%{
         content: 'TAKUT KEHILANGAN';
     }
     60%{
-        content: 'SALTING LIAT';
+        content: 'SALTING SAMA';
     }
     70%{
-        content: 'SUSAH TANPA';
+        content: 'MAU SUSAH SENANG SAMA';
     }
     80%{
         content: 'BAKAL TEMENIN';
     }
     90%{
-        content: 'PERCAYA';
+        content: 'PERCAYA SAMA';
     }
     100%{
         content: 'PEDULI SAMA';
